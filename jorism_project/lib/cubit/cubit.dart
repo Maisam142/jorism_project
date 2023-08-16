@@ -259,7 +259,6 @@ class JorismCubit extends Cubit<JorismState> {
       emit(GetUserProductErrorState(error.toString()));
     });
   }
-
   void deleteProduct(ProductsModel product, String userId){
     emit(DeleteProductLoadingState());
     firestore

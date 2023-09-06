@@ -258,6 +258,7 @@ Widget defaultLoginFormField({
 }) =>
     Center(
       child: TextFormField(
+
         controller: controller,
         keyboardType: type,
         onFieldSubmitted: onSubmit,
